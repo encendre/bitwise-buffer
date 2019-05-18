@@ -11,7 +11,7 @@ npm i buffer-bitwise
 ## Example
 
 ```javascript
-const bitwiseBuffer = require('bitwise-buffer)
+const bitwiseBuffer = require('bitwise-buffer')
 const { xor, and, or, nor, not, leftShift, rightShift, lshift, rshift } = bitwiseBuffer
 
 const a = Buffer.from('0f0f', 'hex')
