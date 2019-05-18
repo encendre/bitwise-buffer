@@ -9,9 +9,14 @@ function mutateNot (dest) {
 }
 
 function not (buff) {
-  const dest = Buffer.from(buff)
+  let i = buff.length
+  const dest = Buffer.allocUnsafe(i)
 
-  return mutateNot(dest)
+  while (i--) {
+    dest[i] = ~buff[i]
+  }
+
+  return dest
 }
 
 module.exports = {

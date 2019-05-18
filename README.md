@@ -1,4 +1,5 @@
 # buffer-bitwise
+[![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
 
 A simple module for bitwise operations on buffers.
 
@@ -65,9 +66,11 @@ bitwiseBuffer.xor.mut === bitwiseBuffer.mut.xor // true
 
 [MIT](http://vjpr.mit-license.org)
 
-[npm-image]: https://img.shields.io/npm/v/live-xxx.svg
-[npm-url]: https://npmjs.org/package/live-xxx
-[travis-image]: https://img.shields.io/travis/live-js/live-xxx/master.svg
-[travis-url]: https://travis-ci.org/live-js/live-xxx
-[coveralls-image]: https://img.shields.io/coveralls/live-js/live-xxx/master.svg
-[coveralls-url]: https://coveralls.io/r/live-js/live-xxx?branch=master
+[travis-image]: https://img.shields.io/travis/ence/bitwise-buffer/master.svg
+[travis-url]: https://travis-ci.org/ence/bitwise-buffer/
+[npm-image]: https://img.shields.io/npm/v/bitwise-buffer.svg
+[npm-url]: https://npmjs.org/package/bitwise-buffer
+[downloads-image]: https://img.shields.io/npm/dm/bitwise-buffer.svg
+[downloads-url]: https://npmjs.org/package/bitwise-buffer
+[standard-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
+[standard-url]: https://standardjs.com

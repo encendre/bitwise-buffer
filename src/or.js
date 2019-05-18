@@ -1,21 +1,23 @@
-function mutateOr (dest, src) {
-  let i = dest.length < src.length ? src.length : dest.length
+function mutateOr (a, b) {
+  let i = Math.max(a.length, b.length)
 
   while (i--) {
-    dest[i] |= src[i]
+    a[i] |= b[i]
   }
 
-  return dest
+  return a
 }
 
 function or (a, b) {
-  if (a.length < b.length) [b, a] = [a, b]
+  let i = Math.max(a.length, b.length)
 
-  const dest = Buffer.from(a)
+  const dest = Buffer.allocUnsafe(i)
 
-  return mutateOr(dest, b)
+  while (i--) {
+    dest[i] = a[i] | b[i]
+  }
+  return dest
 }
-
 module.exports = {
   mutate: mutateOr,
   pure: or
