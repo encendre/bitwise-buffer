@@ -22,7 +22,7 @@ buildExports([
   './xor',
   './or',
   './nor',
-  './not.js',
+  './not',
   './leftShift',
   './rightShift'
 ], module.exports)
