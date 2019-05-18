@@ -1,6 +1,6 @@
 {
   "name": "bitwise-buffer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple module for bitwise operations on buffers.",
   "main": "index.js",
   "scripts": {
