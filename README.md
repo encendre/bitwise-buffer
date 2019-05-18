@@ -66,7 +66,7 @@ bitwiseBuffer.xor.mut === bitwiseBuffer.mut.xor // true
 
 [MIT](http://vjpr.mit-license.org)
 
-[travis-image]: https://img.shields.io/travis/ence/bitwise-buffer/master.svg
+[travis-image]: https://img.shields.io/travis/encendre/bitwise-buffer/master.svg
 [travis-url]: https://travis-ci.org/encendre/bitwise-buffer/
 [npm-image]: https://img.shields.io/npm/v/bitwise-buffer.svg
 [npm-url]: https://npmjs.org/package/bitwise-buffer
